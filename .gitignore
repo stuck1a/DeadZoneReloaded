@@ -2,6 +2,7 @@
 
 # Internal project files
 /.idea
+/.run
 
 # Builds
 /out/**
