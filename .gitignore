@@ -1,0 +1,11 @@
+### VCS Exclusion list
+
+# Internal project files
+/.idea
+
+# Builds
+/out/**
+
+# Resources
+/vendor/**
+/Archiv Original DeadZone
