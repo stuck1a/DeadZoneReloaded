@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+html#html-wrapper {
+  height: 100%;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body#body-wrapper {
+  font-family: helvetica neue, arial, sans-serif;
+  background: url("/assets/gfx/hud/wrapper-bg.jpg") no-repeat center top;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+}
+
+div#content {
+  width: 953px;
+  background: #fff;
+  border: 0;
+  padding: 0 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div#content:before {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+div#content:after {
+  clear: both;
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+section#container {
+  z-index: 999;
+  position: relative;
+  display: block;
+}
+
+div#wrapper {
+  height: 920px;
+  width: 960px;
+  position: relative;
+  -webkit-transition: height 1s;
+  -moz-transition: height 1s;
+  -ms-transition: height 1s;
+  -o-transition: height 1s;
+  transition: height 1s;
+  margin-left: -4px;
+  z-index: 3;
+}
+
+iframe#stage {
+  border: none;
+  background-color: #333;
+}
+
+#startBtn {
+  position: fixed;
+  top: 30%;
+  left: 45%;
+  padding: 20px;
+  font-size: large;
+  font-style: italic;
+}

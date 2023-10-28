@@ -1,0 +1,21 @@
+{
+  "bundles":[
+    {
+      "name":"load-screen",
+      "assets":[
+        { "name":"gfx/hud/bg", "srcs":"/assets/gfx/hud/load-bg.png" },
+        { "name":"sfx/ambient/main", "srcs":"/assets/sfx/ambient/main.mp3" }
+      ]
+    },
+    {
+      "name":"compound-screen",
+      "assets":[
+        { "name":"gfx/hud/bg", "srcs":"/assets/gfx/hud/compound-bg.png" },
+        { "name":"gfx/items/heart", "srcs":"/assets/gfx/items/heart.png" },
+        { "name":"sfx/ambient/main", "srcs":"/assets/sfx/ambient/main.mp3" },
+        { "name":"sfx/ambient/rush", "srcs":"/assets/sfx/ambient/rush.mp3" },
+        { "name":"sfx/events/rush-start", "srcs":"/assets/sfx/events/rush-start.mp3" }
+      ]
+    }
+  ]
+}
